@@ -3,7 +3,8 @@
 My dotfiles for the Windows+WSL environment that i'm currently using. There are
 only a few pieces to this environment workflow.
 
-### vim (Windows / WSL)
+
+# vim (Windows / WSL)
 
 On Windows:
 ```powershell
@@ -21,14 +22,14 @@ sudo apt-get update && sudo apt-get install vim
 Then copy .vimrc file to the appropriate path
 
 
-### alacritty
+# alacritty
 
 On Windows: Download and install Alacritty. Add to path if not added.
 
 Copy the alacritty.yml file to the appropriate path.
 
 
-### tmux
+# tmux
 
 On WSL:
 ```sh
@@ -38,7 +39,7 @@ sudo apt-get update && sudo apt-get install tmux
 Then copy .tmux.conf to the appropriate path
 
 
-### .bashrc for WSL
+# .bashrc for WSL
 
 On WSL: Copy .bashrc to `~/`
 
