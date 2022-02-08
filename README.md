@@ -9,6 +9,7 @@ only a few pieces to this environment workflow.
 On Windows:
 ```powershell
 # install vim and add vim.exe to path
+# install git and node (must be in path)
 # install vim-plug https://github.com/junegunn/vim-plug
 # TODO: automate this process.
 ```
