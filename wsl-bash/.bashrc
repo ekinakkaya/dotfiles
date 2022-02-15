@@ -163,6 +163,7 @@ if iswsl; then
     # TODO: if file exists
     alias github='cat ~/.githubpat | clip.exe'
 
+    alias alacritty_wsl="alacritty.exe --command wsl bash 'exec echo PID: $$; exec tmux ' &"
 else
     echo lmao
 fi
